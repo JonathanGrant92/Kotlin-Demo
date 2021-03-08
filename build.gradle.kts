@@ -16,6 +16,7 @@ repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
@@ -30,9 +31,12 @@ dependencies {
 
     // Use the Kotlin JUnit integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+
+    // TornadoFx
+    //implementation("no.tornado:tornadofx:x.y.z")
 }
 
 application {
     // Define the main class for the application.
-    mainClassName = "demo.AppKt"
+    mainClassName = "dome.DemoAppKt"
 }

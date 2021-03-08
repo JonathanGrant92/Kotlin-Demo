@@ -3,17 +3,18 @@
  */
 package demo
 
-class App {
+class TiDial {
     val greeting: String
         get() {
             return "Hello world."
         }
     fun greet(): String {
-	return "Hello world."    
+	    return "Hello world."
     }
 }
 
 fun main(args: Array<String>) {
-    println(App().greeting)
-    println(App().greet())
+    println(TiDial().greeting)
+    println(TiDial().greet())
+
 }
